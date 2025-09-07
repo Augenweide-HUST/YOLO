@@ -1,0 +1,19 @@
+# train: E:/yolov10-main/ROBOCUP/dataset/ROBOCUP_DATA/train/images  # path + train
+# val:   E:/yolov10-main/ROBOCUP/dataset/ROBOCUP_DATA/valid/images # path + val
+
+# # number of classes
+# nc: 5
+
+# # class names
+# names: ['bridge','car','pillbox','tank','tent']
+
+
+train: E:/yolov10-main/ROBOCUP/dataset/2025_H_8_1 + LZH_split/train/images # path + train
+val:   E:/yolov10-main/ROBOCUP/dataset/2025_H_8_1 + LZH_split/valid/images # path + val
+
+# number of classes
+nc: 5
+
+# class names
+# names: ['fire','mountain','farmland','mudslide','village','lake','river']
+names: ['elephant','tiger','wolf','monkey','peacock']
